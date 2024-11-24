@@ -6,7 +6,6 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView"
         android:layout_width="493dp"
         android:layout_height="229dp"
         android:layout_centerHorizontal="true"
@@ -14,16 +13,6 @@
         android:src="@drawable/circle_background"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-81dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:layout_width="493dp"
-        android:layout_height="229dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-100dp"
-        android:src="@drawable/circle_background"
-        app:layout_constraintTop_toBottomOf="parent"
-        tools:layout_editor_absoluteY="110dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -45,7 +34,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="136dp"
         android:background="@drawable/rounded_edittext"
         android:hint="Full Name"
         android:inputType="textPersonName"
@@ -59,23 +48,21 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/rounded_edittext"
         android:hint="Email Address"
         android:inputType="textEmailAddress"
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="258dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@id/et_name" />
 
     <com.muhammadiyah.becekcapstoneproject.views.CustomPasswordEditText
         android:id="@+id/et_password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/rounded_edittext"
         android:hint="Password"
         android:inputType="textPassword"
@@ -89,12 +76,11 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#9950FF"
         android:text="Register"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/et_password" />
 
@@ -102,12 +88,12 @@
         android:id="@+id/tv_have_account"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="208dp"
         android:text="Already have an account? Login"
         android:textColor="#6A1B9A"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_register" />
+        app:layout_constraintTop_toBottomOf="@id/btn_register"
+        android:layout_marginTop="180dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
