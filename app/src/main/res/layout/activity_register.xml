@@ -13,7 +13,8 @@
         android:layout_marginTop="-100dp"
         android:src="@drawable/circle_background"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="-81dp" />
+        tools:layout_editor_absoluteX="-81dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:layout_width="493dp"
@@ -22,7 +23,8 @@
         android:layout_marginTop="-100dp"
         android:src="@drawable/circle_background"
         app:layout_constraintTop_toBottomOf="parent"
-        tools:layout_editor_absoluteY="110dp" />
+        tools:layout_editor_absoluteY="110dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/tv_register_title"
@@ -65,7 +67,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="258dp" />
+        tools:layout_editor_absoluteY="258dp"
+        tools:ignore="MissingConstraints" />
 
     <com.muhammadiyah.becekcapstoneproject.views.CustomPasswordEditText
         android:id="@+id/et_password"
